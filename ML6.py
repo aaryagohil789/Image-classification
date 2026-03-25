@@ -1,8 +1,7 @@
 import streamlit as st
 import requests
 from PIL import Image
-from dotenv import load_dotenv
-import os
+
 
 HF_TOKEN = st.secrets["HF_TOKEN"]
 
