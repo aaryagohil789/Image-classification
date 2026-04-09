@@ -5,7 +5,7 @@ import base64
 import io
 import random
 
-HF_TOKEN = st.secrets("HF_TOKEN")
+HF_TOKEN = st.secrets["HF_TOKEN"]
 
 API_URL = "https://router.huggingface.co/hf-inference/models/facebook/detr-resnet-101-panoptic"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
